@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="button.js"></script>
+</head>
+<body>
+<h2>Dawa Tran</h2>
+<h1>Projet Atlas</h1>
+<h2>Portfolio Master II Licence Géographie Aménagement - TRAM</h2>
+<!--Animation-->
+<div id="scene">
+    <div id="earth-orbit">
+        <div id="moon-orbit">
+            <img src="animation/moon.png" id="moon" alt="moon">
+        </div>
+        <img src="animation/earth.png" id="earth" alt="earth">
+    </div>
+  
+    <img src="animation/sun.png"  id="sun" alt="sun">
+  </div>
+<!--Animation-->
+<fieldset>
+        <legend>Title</legend>
+        <p>Dans le cas où vous lisez ce document, cela signifie que vous portez un intérêt au travail que j’ai réalisé dans le cadre de ma formation de Géographe-Aménageur.<br><br>
+            L’aventure commence en 2018, lorsque je décide d’intégrer la Licence Géographie et Aménagement proposée à la faculté de Sciences Humaines et Sociales de Nancy. Après avoir validé en 2021 ma Licence, j’ai pris la décision de continuer sur cette lancée en intégrant le Master Géographie et Aménagement en suivant le parcours TRAM (Transition, reconversion, aménagement et développement des territoires).<br><br>
+            J’arrive aujourd’hui au terme de mon parcours et afin de présenter les travaux effectués pendant 5 ans, il était indispensable de faire un petit résumé. Voici donc ce qui me servira de recueil pour mes travaux. <br><br> Vous allez (j’espère) constater une évolution dans la qualité de mes travaux. J’ai décidé d’approfondir durant toutes ces années la présentation de mes travaux. 
+            <br><br>Bon voyage ! 
+            </p>
+    </fieldset>
+<h1>Sommaire</h1>
+<ul>
+        <li>1. Avant tout une question d'échelles</li>
+        <li>2. Doonnez-moi des données</li>
+        <li>3. Les ustensiles nécéssaires</li>
+        <li>4. Distribuer les cartes</li>
+        <li>5. La créativité, c'est l'intéligence qui s'amuse</li>
+        <li>6. Un projet concret</li>
+    </ul>
+<h1>Avant tout, une question d'échelles</h1>
+<fieldset>
+    <legend>Title</legend>
+    <p>Les faits géographiques doivent être étudiés à l'échelle adaptée, en fonction de leurs caractères et des thématiques abordées. Ils pourront parfois être appréhendés à divers niveaux d'échelle (de manière dite multiscalaire) qui apparaîtront donc emboîtés les uns dans les autres. De tels changements d'échelle, par leurs effets de « zoom » avant ou arrière, peuvent révéler des réalités différentes en modifiant perceptions et représentations. <br><br>La détermination de l’échelle d’étude d’un phénomène est fondamentale en géographie : toute carte ou croquis doivent être accompagnés d’une échelle graphique, accessible visuellement, ou d’une échelle numérique, qui suppose, elle, le passage par une opération arithmétique. 
+        </p>
+</fieldset>
+<h3>Matière : Géopolitique</h3>
+<div class="slider-container">
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+    <div class="content">
+    <div class="close-btn" onclick="togglePopup('1')">&times;</div>
+        <h2> Fun Fact 1</h2>
+    Portuguese is the official language of 9 countries.      
+        
+    </div>
+    </div>
+    <button onclick="togglePopup('1')" class="btn1">?</button>
+    <div class="menu">
+      <label for="slide-dot-1"></label>
+      <label for="slide-dot-2"></label>
+      <label for="slide-dot-3"></label>
+    </div>
+    <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
+    <img class="slide-img" src="images/Yemen/Locale_Légende.png">
+
+    <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
+    <img class="slide-img" src="images/Yemen/Moyenne_Legende.png">
+    
+    <input class="slide-input" id="slide-dot-3" type="radio" name="slides">
+    <img class="slide-img" src="images/Yemen/Monde.png">
+  </div>
+<h1>Collecter des données !</h1>
+<h3>Matière : Techniques d'enquetes</h3>
+<fieldset>
+    <legend>Title</legend>
+    <p>Une enquête sociologique ou statistique est une technique de collecte d’informations qui se distinguedes autres du fait que la quête d’informations est réalisée par interrogation systématique de sujets d’une population déterminée, pour décrire, comparer ou expliquer : il s’agit d’une démarche de type scientifique conduite avec toute la rigueur méthodologique en vue de réduir la part de subjectivité du chercheur. <br><br>
+        En sciences sociales, le chercheur dispose d’autres méthodes de recherche pour obtenir des données.</p>
+</fieldset>
+<div class="infospdf">
+    <div class="popup" id="popup-2">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup('2')">&times;
+            </div>
+            <h4>Titre</h4>
+            <h5>Test</h5>
+        </div>
+    </div>
+    <button onclick="togglePopup(2)" class="btn2" id="2">?</button>
+    <iframe src="images/Techniques d'enquêtes/Techniques.pdf" class="pdf"></iframe>
+</div>
+<h3>Matière : Étude de marchabilité</h3>
+<fieldset>
+    <legend>Title</legend>
+    <p>A travers cette enquête, le but était de choisir un public et d’établir un audit afin de comprendre les enjeux liés à la marche durant un trajet. Dans notre le cas l’audit permet de comprendre la marchabilité autour de la place St Epvre, un lieu ou les étudiants se retrouvent le soir afin de prendre un verre. C’est un lieu dynamique, cependant certains itinéraires semblent plus agréables. Nous avons donc tenté grâce à 3 enquêtes de terrains de déterminer les itinéraires les plus adaptées au public visé. Les enquêtes de terrain sont indispensables au géographe, car parfois la réalité des cartes est différente de celles du terrain, en fonction de la vision de celui qui a rédigé celle-ci. 
+</fieldset>
+<div class="infosgenially">
+    <div class="popup" id="popup-3">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup('3')">&times;
+            </div>
+            <h4>Titre</h4>
+            <h5>Test</h5>
+        </div>
+    </div>
+    <button onclick="togglePopup(3)" class="btn3" id="3">?</button>
+    <div style="width: 50%;margin: auto;">
+        <div style="display: flex;position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0; margin: auto;text-align: center;">
+            <iframe title="Audit Nancy" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/61d3b5138502620dee9ec37e" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
+        </div>
+    </div>
+</div>
+<h1>Interpréter et présenter des données</h1>
+<h3>Matière : Géopolitique de l'environnement </h3>
+<div class="infospostereau">
+    <fieldset>
+        <legend>Title</legend>
+        <p>Le bloc-diagramme est un outil traditionnellement utilisé dans plusieurs disciplines. En géologie, en géographie, en ingénierie industrielle. Les paysagistes utilisent le bloc-diagramme pour présenter un paysage à des publics variés. L’objectif est souvent de faciliter la compréhension de phénomènes techniques ponctuels en y associant la lecture sensible, par exemple pour communiquer avec des personnes enquêtées. En général, les blocs visent à représenter un site existant, un cadre réel en simplifiant les éléments de détail pour mieux mettre en avant les lignes de forces, les enjeux, les spécificités.</p>
+    </fieldset>
+    <div class="popup" id="popup-4">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup('4')">&times;
+            </div>
+            <h4>Titre</h4>
+            <h5>Test</h5>
+        </div>
+    </div>
+    <button onclick="togglePopup(4)" class="btn4" id="4">?</button>
+    <img class="bloc-diagramme" src="images/Bloc Diagramme/Bloc.png"/>
+</div>
+<iframe class="pdf" src="images/Evian/Vittle.pdf"\></iframe>
+<h3>Matière : Le croquis aérien</h3>
+<div class="infospostereau">
+    <fieldset>
+        <legend>Title</legend>
+        <p>Le principe de base du croquis aérien est d’entrer toujours dans un paysage observé, par le haut et non par des détails, afin de dégager d’emblée les grandes articulations de l’agencement spatial d’une scène. Cette approche lointaine est largement intuitive : il s’agit seulement de mettre en évidence des différences manifestes dans la répartition des masses du paysage, de déceler des discontinuités, des ruptures qui séparent des ensembles sinon homogènes du moins suffisamment distincts les uns des autres pour qu’ils apparaissent comme des personnalités au faciès original. Si ces grands faciès ne sont pas forcément homogènes dans leur contenu, cela signifie que, dans leur particularisme, ils peuvent, à leur tour contenir des sousensembles suffisamment différenciés pour être repérables. Ce n’est pas toujours le cas. Quoi qu’il en soit, la diversité 113 à l’intérieur des faciès – ou des sous-ensembles – s’exprime à travers des agencements et des collections d’objets qui, par leur présence, expriment des fonctions actuelles ou passées. Plus on avance dans la « profondeur » des paysages, dans leur intimité, plus l’observation devient précise, « raisonnée », plus elle demande de culture géographique, de connaissance des mécanismes fonctionnels et des formes qui leur sont associées. S’il n’est pas nécessaire d’être géographe pour distinguer des faciès dans un paysage, il faut avoir, en revanche, une culture géographique solide pour reconnaître un type d’habitation, une culture particulière (maïs, riz…), une usine chimique ou une cave coopérative.</p>
+    </fieldset>
+    <div class="popup" id="popup-5">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup('5')">&times;
+            </div>
+            <h4>Titre</h4>
+            <h5>Test</h5>
+        </div>
+    </div>
+    <button onclick="togglePopup(5)" class="btn5" id="5">?</button>
+    <img class="bloc-diagramme" src="images/CAO/croquis.png"/>
+<h3>Matière : Le SIG (Système d'Information Géographique)</h3>
+<div class="infospdf">
+    <fieldset>
+        <legend>Title</legend>
+        <p>Un système d’information géographique, ou S. I. G (en anglais GIS, Geographic Information System) est un système qui permet de recueillir, stocker, traiter, analyser puis mettre en forme des données géographiques. Il permet d'analyser sous forme de « couches » les différentes informations numériques disponibles sur un territoire géoréférencé, c'est-à-dire dont les informations sont référencées selon leur coordonnées géographiques. Structurées sous forme de bases de données, elles peuvent être extraites, triées, traitées à partir des requêtes de leur utilisateur.
+
+            <br><br>Ces systèmes facilitent donc les opérations de superposition, comparaison, simulation des données sur un espace. Ils permettent, en particulier, de réaliser des Modèles numériques de terrain (MNT) et d'avoir une vision 3D de restitution et de simulation paysagère des espaces étudiés. Ils facilitent les études d'anticipation des transformations d'un paysage : impact visuel de certains travaux et projets d'aménagement (autoroute, lignes à grande vitesse, projets immobiliers, aménagements paysagers, forestiers).Un système d’information géographique, ou S. I. G (en anglais GIS, Geographic Information System) est un système qui permet de recueillir, stocker, traiter, analyser puis mettre en forme des données géographiques. Il permet d'analyser sous forme de « couches » les différentes informations numériques disponibles sur un territoire géoréférencé, c'est-à-dire dont les informations sont référencées selon leur coordonnées géographiques. Structurées sous forme de bases de données, elles peuvent être extraites, triées, traitées à partir des requêtes de leur utilisateur.
+
+            <br><br>Ces systèmes facilitent donc les opérations de superposition, comparaison, simulation des données sur un espace. Ils permettent, en particulier, de réaliser des Modèles numériques de terrain (MNT) et d'avoir une vision 3D de restitution et de simulation paysagère des espaces étudiés. Ils facilitent les études d'anticipation des transformations d'un paysage : impact visuel de certains travaux et projets d'aménagement (autoroute, lignes à grande vitesse, projets immobiliers, aménagements paysagers, forestiers).
+            <br><br>L'apprentissage des SIG représente une part importante de la formation des géographes, les SIG permettent aux géographes de collecter, d'analyser et de traiter les données afin de leur donner un sens. </p>
+    </fieldset>
+    <div class="popup" id="popup-6">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup('6')">&times;
+            </div>
+            <h4>Titre</h4>
+            <h5>Test</h5>
+        </div>
+    </div>
+    <button onclick="togglePopup(6)" class="btn6" id="6">?</button>
+    <iframe class="pdf" src="images/SIG/SIG - BIODIV .pdf"></iframe>
+</div>
+<h1>Quelques réalisations personnelles</h1>
+<h3>Les posters</h3>
+<h6>Reconversion de l'usine Packard à Détroit</h6>
+<iframe class="pdf2" src="images/Posters/Detroit.pdf"></iframe>
+<h6>Projet Agricole Territorial de Dunkerque</h6>
+<iframe class="pdf2" src="images/Posters/PAT.pdf"></iframe>
+<h6>Projet Zero Artificialisation Net</h6>
+<iframe class="pdf2" src="images/Posters/ZAN.pdf"></iframe>
+</body>
+</html>

@@ -1,0 +1,396 @@
+body{
+    background-color: black;
+    color: azure;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+h4{
+    color: white;
+    text-align: center;
+}
+h5{
+    color: white;
+    text-align: center;
+}
+h6{
+    color: white;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-align: center;
+}
+
+fieldset {
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+legend {
+    padding: 0 10px;
+  }
+
+ul{  
+    display: table;
+    list-style-type: none;
+    margin: auto;
+}
+
+.photos{
+    text-align: center;
+    margin: auto;
+}
+
+.Yemen{
+    height: fit-content;
+}
+.pdf{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    height: auto;
+    width: 50%;
+    height: 500px;
+}
+.pdf2{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    height: auto;
+    width: 50%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.bloc-diagramme{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    height: auto;
+}
+.infospdf{
+    text-align: center;
+}
+.infosgenially{
+    text-align: center;
+}
+.infospostereau{
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+
+/*----Slider----*/
+
+.slider-container {
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+  height: 600px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50px;
+  margin: 0 0.2em 1em;
+}
+.menu label:hover,.menu label:focus {
+  background: #1c87c9;
+}
+.slide-input{
+  opacity: 0;
+  z-index: -1;
+}
+.slide-img {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  transition: left 0s 0.75s;
+  z-index: -1;
+}
+[id^="slide"]:checked + .slide-img {
+  left: 0;
+  z-index: 10;
+  transition: left 0.65s ease-out;
+}
+
+/*----Button----*/
+
+.popup .overlay{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100wh;
+    background: #1c87c9;
+    z-index: 1;
+}
+
+.popup .content{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background: black;
+    width: 450px;
+    height: 220px;
+    z-index: 51;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.popup .close-btn{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: red;
+    color: yellow;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.popup.active .overlay{
+    display: block;
+
+}
+
+.popup.active .content{
+    transform: all 300ms ease-in-out;
+    transform: translate(-50%,50%) scale(1);
+}
+
+.btn1{
+    position: sticky;
+    z-index: 50;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.btn2{
+    position: sticky;
+    z-index: 50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn3{
+    position: sticky;
+    z-index: 50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn4{
+    position: sticky;
+    z-index: 50;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+.btn4{
+    position: sticky;
+    z-index: 50;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.btn5{
+    position: absolute;
+    z-index: 50;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 26%;
+}
+
+.btn6{
+    position: sticky;
+    z-index: 50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*-----Lune-----*/
+
+#scene {
+    width: auto;
+    height: 650px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#moon {
+    height: 40px;
+    width: 40px;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+ 
+#sun {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+ 
+    -webkit-animation: pulse 4s alternate infinite linear;
+    -moz-animation: pulse 4s alternate infinite linear;
+    -ms-animation: pulse 4s alternate infinite linear;
+    -o-animation: pulse 4s alternate infinite linear;
+    animation: pulse 4s alternate infinite linear;
+}
+ 
+#earth {
+    width: 100 px;
+    height: 100px;
+    position: absolute;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+ 
+    -webkit-animation: orbit 30s linear infinite;
+    -moz-animation: orbit 30s linear infinite;
+    -ms-animation: orbit 30s linear infinite;
+    -o-animation: orbit 30s linear infinite;
+    animation: orbit 30s linear infinite;
+}
+#earth-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+ 
+    width: 500px;
+    height: 500px;
+ 
+    margin-top: -250px;
+    margin-left: -250px;
+ 
+    border: 2px solid #939393;
+    -mozborder-radius: 50%;
+    -webkitborder-radius: 50%;
+    border-radius: 50%;
+ 
+    -webkit-animation: orbit 10s linear infinite;
+    -moz-animation: orbit 10s linear infinite;
+    -ms-animation: orbit 10s linear infinite;
+    -o-animation: orbit 10s linear infinite;
+    animation: orbit 10s linear infinite;
+}
+
+#moon-orbit {
+    width: 200px;
+    height: 200px;
+ 
+    position: absolute;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+ 
+    -webkit-animation: orbit 10s linear infinite;
+    -moz-animation: orbit 10s linear infinite;
+    -ms-animation: orbit 10s linear infinite;
+    -o-animation: orbit 10s linear infinite;
+    animation: orbit 10s linear infinite;
+}
+ 
+ 
+@-webkit-keyframes pulse {
+    0% {
+        transform: scale(0.8);
+    }
+    100%  {
+        transform: scale(1);
+    }
+}
+@-moz-keyframes pulse {
+    0% {
+        transform: scale(0.8);
+    }
+    100%  {
+        transform: scale(1);
+    }
+}
+@-o-keyframes pulse {
+    0% {
+        transform: scale(0.9);
+    }
+    100%  {
+        transform: scale(1);
+    }
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+    }
+    100%  {
+        transform: scale(1);
+    }
+}
+ 
+ 
+@-webkit-keyframes orbit {
+    100%  {
+        transform: rotate(360deg)
+    }
+}
+@-moz-keyframes orbit {
+    100%  {
+        transform: rotate(360deg)
+    }
+}
+@-o-keyframes orbit {
+    100%  {
+        transform: rotate(360deg)
+    }
+}
+@keyframes orbit {
+    100%  {
+        transform: rotate(360deg)
+    }
+}
