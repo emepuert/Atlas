@@ -59,6 +59,7 @@ p{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
+    background-color: black;
 }
 
 li{
@@ -73,6 +74,7 @@ legend{
     text-align: justify;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 .sanslien{
@@ -91,6 +93,7 @@ fieldset {
     position: relative;
     margin: auto;
     margin-bottom: 50px;
+    background-color: black;
   }
 legend {
     padding: 0 10px;
@@ -550,27 +553,10 @@ ul{
     text-transform: uppercase;
     text-align: center;
     margin-top: 25%;
+    padding: 50px;
   }
   
-.text-loading{
-    padding: 64px;
-    background: linear-gradient(to right, hsl(0, 0%, 100%) 0, hsl(0, 0%, 0%) 10%, hsl(0, 0%, 100%) 20%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shine 1s infinite linear;
-  }
 
-  @keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 600px;
-    }
-    100% {
-      background-position: 600px;
-    }
-  }
   #compass {
     width: 100px;
     height: 100px;
@@ -715,7 +701,7 @@ ul{
       transform: rotate(360deg);
     }
   }
-  
+
 /* Create a sticky/fixed navbar */
 #navbar {
     overflow: hidden;
